@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+/*Formatação da interface principal*/
+body{
+	background-color: rgba(0,250,154,.3);
+	background-image: url(fundoVerde.jpg); /*Imagem de fundo*/
+    background-repeat: no-repeat;          /*A imagem de fundo não repetirá*/
+    background-attachment: fixed;          /*Ficará fixa sem repetir para baixo e se mover*/
+    background-size: 100%;                 /*O fundo se estenderá 100% pela tela em largura e altura*/
+    width: 90%;                           /*A largura de 90% para não ultrapassar a borda*/
+    height: 100%;                         /*Altua em 100%*/
+    margin: 20px;                         /*Margem de 45px para não ficar colado na borda*/
+}
+div.interface{
+	background-color: #FFFFFF;
+	width: 100%;
+	display: block;
+	margin: -20px  20px auto;
+	box-shadow: 2px 0px 10px rgba(0,0,0,.5);
+	padding: 20px;
+}
+p{
+	font-family: Arial;                   /*Tipo da fonte*/
+	font-size: 24px;                      /*Fonte de tamanho de 30px*/
+	text-align: justify;                  /*Alinhamento justificado*/
+	text-indent: 25px;                    /*Início do parágrafo após 60px*/
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+ul.lista{
+	font-size: 25px;                      /*Fonte da lista*/
+	font-family: sans-serif;
+}
+h1{
+	margin-top: 30px;                     /*Título h1 com margem de 40px*/
+	color: green;                         /*Com da fonte*/
+	font-family: sans-serif;              /*Tipo da fonte*/
+	font-size: 60px;                      /*tamanho da fonte*/
+	text-indent: 45px;
+	padding-bottom: 10px;                 /*Espaçamento interno pra baixo de 70 px*/
+}
+h3{
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	text-indent: 35px;
+	color: green;
+	margin-top: -30px;
+}
+p.textProcess{
+	font-family: Arial;                   /*Tipo da fonte*/
+	font-size: 24px;                      /*Fonte de tamanho de 30px*/
+	text-align: justify;                  /*Alinhamento justificado*/
+	text-indent: 50px;                    /*Início do parágrafo após 60px*/
+	margin-top: -50px;
+}
+h4{
+		font-family: Arial;                   /*Fonte do h4*/
+    font-size: 30px;                      /*Tamanho da fonte*/
+    text-indent: 40px;                    /*Só iniciará após 40px*/
+    margin-bottom: -7px;                   /*Margem de baixo para diminuir o espãço até o parágrafo*/
+    margin-top: 50px;
+}
+div.central{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Formatação do cabeçalho */
+header#cabecalho img#icone{
+	position: absolute;				      /* imagem com posição absoluta em relação ao header */
+}
+header#cabecalho{
+	border-bottom: 3px solid #000000;	  /* borda inferior */
+	margin-bottom: 30px;
+	height: 150px;
+}
+header#cabecalho h1{
+	font-family: Arial, sans-serif;
+	font-size: 64px;
+	color: #3CB371;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	margin-bottom: 14px;
+}
+header#cabecalho h2{
+	font-family: Arial, sans-serif;
+	color: #32CD32;
+	font-size: 30px;
+	margin-top: -30px;
+	text-indent: 50px;
+}
+
+/* Formatação da imagem cabeçalho */
+img#icone{
+    position: absolute;				    /* posicionamento relativo a um anterior */
+    border-radius: 100px;
+	width: 180px;
+	height: 180px;
+	top: 90px;
+	right: 190px;
+	box-shadow: 2px 2px 7px rgba(0,0,0,.3);
+}
+
+/* Formatação do Menu */
+header{
+	margin-top: 50px;					/* espaço entre o topo e o header */
+}
+nav#menu{
+	display: block;						/* fará a lista flutuar */
+}
+nav#menu ul{
+	list-style: none;					/* sem indicador de lista */
+	text-transform: uppercase;			/* todas as letras maiúsculas */
+	position: absolute;					/* para q possa passar lor cima de outros objetos */
+	top: -20px;							/* posição no topo */
+	right: 80px;						/* posição à esquerda */
+}
+nav#menu li{
+	font-family: arial, sans-serif;
+	font-size: 22px;
+	display: inline-block;				/* fará com que os itens da lista fiquem de lado */
+	background-color: #008000;			/* com de fundo */
+	padding: 10px 14px 10px 14px;					    /* espacamento interno */
+	margin: 7px 3px 0px 0px;					    /* espaçamento externo */
+	border-radius: 10px;
+	box-shadow: 3px 2px 3px rgba(0,0,0,.3);
+	transition: background-color 0.4s;  /* tempo de transição */
+}
+nav#menu li:hover {						/* efeito ao passar o mouse por cima */
+	background-color: #008080;
+	color: #FFFFFF;
+}
+nav#menu h1{
+	display: none;						/* esconde o objeto/não aparecerá */
+}
+
+nav#menu a{
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;				/* sem decoração no texto */
+	transition: 0.4s;
+}
+nav#menu a:hover {
+	color: #FFFFFF;
+}
+
+/* Formatação da tabela de processos */
+table#processos{
+	border: 4px solid #000000;
+	width: 80%;
+	height: 50%;
+	font-size: 28px;
+	border-radius: 15px;
+}
+table#processos td{
+	border: 1px solid #ffffff;
+	background-color: #98FB98;
+	border-radius: 5px;
+}
+td.C1{
+	padding-left: 20px;
+}
+td.C2{
+	text-align: center;
+}
+table#processos th{
+	font-family: Arial;
+	text-align: center;
+	border: 1px solid #ffffff;
+	background-color: #2E8B57;
+	border-radius: 5px;
+}
+
+/*Formatação das imagens de passagem na aba principal*/
+ul#passagemAbas{
+    /*border: 3px solid red;*/
+    margin-bottom: -50px;
+    padding: 20px;
+    list-style: none;
+}
+ul#passagemAbas li{
+    float: left;      /*flutuação para a esquerda*/
+    width: 185px;
+    height: 135px;
+    margin: 10px 40px 10px 10px;
+    border: 5px solid #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0,0,0,.3);   /*sombra*/
+}
+ul#passagemAbas li#img01{
+    background: url("../_fotos/Glicolise.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
+    background-position: 0px 0px;           			/*posicionar inicialmente no meio*/
+    background-size: 185px 135px;             			/*tamanho ocupado pela imagem*/
+}
+ul#passagemAbas li#img02{
+    background: url("../_fotos/OxiPiruvato.jpg") no-repeat;/*imagem como fundo, e sem mudar o parâmetro*/
+    background-position: 0px 0px;           			/*posicionar inicialmente no meio*/
+		background-size: 185px 135px;             			/*tamanho ocupado pela imagem*/
+}
+ul#passagemAbas li#img03{
+    background: url("../_fotos/CicloKrebs.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
+    background-position: 0px 0px;           			/*posicionar inicialmente no meio*/
+		background-size: 185px 135px;             			/*tamanho ocupado pela imagem*/
+}
+ul#passagemAbas li#img04{
+    background: url("../_fotos/FosfoOxidativa.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
+    background-position: 0px 0px;           				/*posicionar inicialmente no meio*/
+		background-size: 185px 135px;             			/*tamanho ocupado pela imagem*/
+}
+#passagemAbas span{
+    opacity: 0;               					/*visibilidade 0, ou seja, nn visível*/
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000000;  		    /*sombra no texto*/
+    text-transform: uppercase;        			/*todas as letras maiúsculas*/
+    font-family: cursive;         				/*tipo da fonte*/
+    font-size: 18px;
+    line-height: 40px;            				/*altura da frase(contagem a partir de cima)*/
+    padding: 5px;             					/*espaçamento interno*/
+    background-color: rgba(0,0,0,.3);   		/*cor de fundo*/
+		border-radius: 10px; 
+}
+#passagemAbas li:hover span {
+    transition: 0.4s;           		/*tempo de trasição*/
+    opacity: 1;               			/*visibilidade total, ou seja, será visível*/
+}
+
+/*Formatação das imagens de passagem de dentro dos processos*/
+nav#ladoAlado{
+    display: block;
+}
+img.imgPassagem{
+    width: 160px;
+    height: 115px;
+    border: 5px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: rgba(0,139,139,.3);
+    box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+    margin: 30px 15px 10px 15px;
+}
+img.imgPassagem:hover {
+	border-color: rgba(0,255,127,.8);
+	background: rgba(0,255,127,.8);
+    transition: 0.6s;
+}
+
+/*Formatação de texto ao lado de imagem*/
+div.corpo{
+	display: table;
+}
+div.right{
+	display: table-cell;
+	float: right;
+	width: 48%;
+	padding-left: 15px;
+	margin: 60px 0px -20px 0px;
+}
+div.left{
+	display: table-cell;
+	float: left;
+	width: 48%;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+p.textimage{
+	margin-top: 0px;
+	margin-left: 15px
+}
+
+/*Formatação das demais imagens*/
+img.imagens, img#imagemF{
+	width: 480px;
+	height: 280px;
+	padding: 8px;
+	margin-bottom: 20px;
+	border: 4px solid #008B8B;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,.1);
+	box-shadow: 3px 2px 8px rgba(0,0,0,.3);
+}
+img.imagens:hover {
+	transition: 0.2s;
+	border-color: #48D1CC;
+}
+img.fotoProcesso{
+	height: 40%;
+	width: 60%;
+	margin: 40px auto 20px auto;
+	border: 5px solid #FFFFFF;
+	border-radius: 15px;
+	box-shadow: 3px 3px 6px rgba(0,0,0,.2);
+}
+/*Botão do QUIZ*/
+a#quiz{
+	text-decoration: none;
+	font-family: Cursive ;
+	color: #FFFFFF;
+	font-size: 28px;
+	background-color: #228B22;
+	padding: 20px;
+	border: 4px solid #FFFFFF;
+	border-radius: 50px;
+	box-shadow: 3px 3px 7px rgba(0,0,0,.3);
+}
+a#quiz:hover {
+	color: #00FF00;
+	border: 4px solid #00FF00;
+	background-color: #000000;
+	transition: 0.5s;
+}
+
+/*Formatação dos icones de contatos no rodape*/
+div#rodape{
+	border-top: 3px solid #000000;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin-top: 40px;
+	background-color: #00FA9A;
+}
+img.logos {
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	margin: 10px;
+	margin-top: 15px;
+	width: 45px;
+	height: 35px;
+	background-color: rgba(0,0,0,.3);
+	padding: 2px;
+	border-radius: 90px;
+}
+p.rodape{
+	margin: -10px;
+	font-family: sans-serif;
+	font-size: 17px;
+	text-align: center;
+	text-indent: 0px;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+	background-color: #E0FFFF;            /*Cor de fundo verde água claro*/
+	background-image: url(fundo2.jpeg);    /*Imagem de fundo*/
+    background-repeat: no-repeat;         /*A imagem de fundo não repetirá*/
+    background-attachment: fixed;         /*Ficará fixa sem repetir para baixo e se mover*/
+    background-size: 100%;                /*O fundo se estenderá 100% pela tela em largura e altura*/
+    width: 90%;                           /*A largura de 90% para não ultrapassar a borda*/
+    height: 100%;                         /*Altua em 100%*/
+    margin: 45px;                         /*Margem de 45px para não ficar colado na borda*/
+}
+table.testeQI{
+	width: 66%;
+	position: relative;
+	left: 17%;
+	top: 10%;
+	border: 3px solid #000000;
+	border-radius: 15px; 
+	background-color: #ffffff;
+}
+td{
+	padding: 20px;
+}
+p{
+	font-family: Arial;                   /*Tipo da fonte*/
+	font-size: 30px;                      /*Fonte de tamanho de 30px*/
+	text-align: left;                     /*Alinhamento justificado*/
+}

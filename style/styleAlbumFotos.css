@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+/* Formatação do album de fotos parte 01*/
+ul#album-fotos01{
+	width: 1200px;
+	margin: 0px auto 10px auto;
+	padding: 50px;
+	overflow: hidden;							/*corta o resto da imagem, deixando esse resto invisível*/
+	list-style: none;
+}
+ul#album-fotos01 li{
+	float: left;								/*flutuação para a esquerda*/
+	width: 250px;
+	height: 250px;
+	margin: 4px;
+	border: 5px solid #FFFFFF;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);		/*sombra*/
+}
+ul#album-fotos01 li#foto01{
+	background: url("../_imagens/albumFotos/Glicolise01.jpeg") no-repeat;	/*imagem como fundo, e sem mudar o parâmetro*/
+	background-position: 50% 50%;				/*posicionar inicialmente no meio*/
+	background-size: 400px 400px;				/*tamanho ocupado pela imagem*/
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;		/*kit de transição -> monitorará todos, tempo de transição, tipo/efeito da transição */
+}
+ul#album-fotos01 li#foto01:hover{
+	background-position: 0px 0px;				/*ao passar o mouse por cima a posição será no canto superior esquerdo*/
+	background-size: 250px 250px;				/*ao passar o mouse por cima o tamahno da imagem de fundo reduzirá*/
+}
+ul#album-fotos01 li#foto02{
+	background: url("../_imagens/albumFotos/Glicolise02.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos01 li#foto02:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+ul#album-fotos01 li#foto03{
+	background: url("../_imagens/albumFotos/Glicolise03.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos01 li#foto03:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+ul#album-fotos01 li#foto04{
+	background: url("../_imagens/albumFotos/Glicolise04.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos01 li#foto04:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+#album-fotos01 span{
+	opacity: 0;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.1);
+	font-size: 15px;
+	line-height: 40px;
+	padding: 5px;
+}
+ul#album-fotos01 li:hover{
+	-webkit-transform: scale(1.5);			/*fará uma transformação ocorrer ao passar o mouse por cima, irá aumentar*/
+}
+ul#album-fotos01 li:hover span{
+	opacity: 1;
+}
+
+/* Formatação do album de fotos parte 02*/
+ul#album-fotos02{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;							/*corta o resto da imagem, deixando esse resto invisível*/
+	list-style: none;
+}
+ul#album-fotos02 li{
+	float: left;								/*flutuação para a esquerda*/
+	width: 250px;
+	height: 250px;
+	margin: 7px;
+	border: 5px solid #FFFFFF;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);		/*sombra*/
+}
+ul#album-fotos02 li#foto01{
+	background: url("../_imagens/albumFotos/OxiPiruvato01.jpeg") no-repeat;	/*imagem como fundo, e sem mudar o parâmetro*/
+	background-position: 50% 50%;				/*posicionar inicialmente no meio*/
+	background-size: 400px 400px;				/*tamanho ocupado pela imagem*/
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;		/*kit de transição -> monitorará todos, tempo de transição, tipo/efeito da transição */
+}
+ul#album-fotos02 li#foto01:hover{
+	background-position: 0px 0px;				/*ao passar o mouse por cima a posição será no canto superior esquerdo*/
+	background-size: 250px 250px;				/*ao passar o mouse por cima o tamahno da imagem de fundo reduzirá*/
+}
+ul#album-fotos02 li#foto02{
+	background: url("../_imagens/albumFotos/OxiPiruvato02.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos02 li#foto02:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+ul#album-fotos02 li#foto03{
+	background: url("../_imagens/albumFotos/OxiPiruvato03.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos02 li#foto03:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+ul#album-fotos02 li#foto04{
+	background: url("../_imagens/albumFotos/OxiPiruvato04.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos02 li#foto04:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+#album-fotos02 span{
+	opacity: 0;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.1);
+	font-size: 15px;
+	line-height: 40px;
+	padding: 5px;
+}
+ul#album-fotos02 li:hover{
+	-webkit-transform: scale(1.5);			/*fará uma transformação ocorrer ao passar o mouse por cima, irá aumentar*/
+}
+ul#album-fotos02 li:hover span{
+	opacity: 1;
+}
+
+/* Formatação do album de fotos parte 03*/
+ul#album-fotos03{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;							/*corta o resto da imagem, deixando esse resto invisível*/
+	list-style: none;
+}
+ul#album-fotos03 li{
+	float: left;								/*flutuação para a esquerda*/
+	width: 250px;
+	height: 250px;
+	margin: 7px;
+	border: 5px solid #FFFFFF;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);		/*sombra*/
+}
+ul#album-fotos03 li#foto01{
+	background: url("../_imagens/albumFotos/CiclodeKrebs01.jpeg") no-repeat;	/*imagem como fundo, e sem mudar o parâmetro*/
+	background-position: 50% 50%;				/*posicionar inicialmente no meio*/
+	background-size: 400px 400px;				/*tamanho ocupado pela imagem*/
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;		/*kit de transição -> monitorará todos, tempo de transição, tipo/efeito da transição */
+}
+ul#album-fotos03 li#foto01:hover{
+	background-position: 0px 0px;				/*ao passar o mouse por cima a posição será no canto superior esquerdo*/
+	background-size: 250px 250px;				/*ao passar o mouse por cima o tamahno da imagem de fundo reduzirá*/
+}
+ul#album-fotos03 li#foto02{
+	background: url("../_imagens/albumFotos/CiclodeKrebs02.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos03 li#foto02:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+ul#album-fotos03 li#foto03{
+	background: url("../_imagens/albumFotos/CiclodeKrebs03.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos03 li#foto03:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+ul#album-fotos03 li#foto04{
+	background: url("../_imagens/albumFotos/CiclodeKrebs04.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos01 li#foto04:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+#album-fotos03 span{
+	opacity: 0;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.1);
+	font-size: 15px;
+	line-height: 40px;
+	padding: 5px;
+}
+ul#album-fotos03 li:hover{
+	-webkit-transform: scale(1.5);			/*fará uma transformação ocorrer ao passar o mouse por cima, irá aumentar*/
+}
+ul#album-fotos03 li:hover span{
+	opacity: 1;
+}
+
+/* Formatação do album de fotos parte 04*/
+ul#album-fotos04{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;							/*corta o resto da imagem, deixando esse resto invisível*/
+	list-style: none;
+}
+ul#album-fotos04 li{
+	float: left;								/*flutuação para a esquerda*/
+	width: 250px;
+	height: 250px;
+	margin: 7px;
+	border: 5px solid #FFFFFF;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);		/*sombra*/
+}
+ul#album-fotos04 li#foto01{
+	background: url("../_imagens/albumFotos/FosforilacaoOxi01.jpeg") no-repeat;	/*imagem como fundo, e sem mudar o parâmetro*/
+	background-position: 50% 50%;				/*posicionar inicialmente no meio*/
+	background-size: 400px 400px;				/*tamanho ocupado pela imagem*/
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;		/*kit de transição -> monitorará todos, tempo de transição, tipo/efeito da transição */
+}
+ul#album-fotos04 li#foto01:hover{
+	background-position: 0px 0px;				/*ao passar o mouse por cima a posição será no canto superior esquerdo*/
+	background-size: 250px 250px;				/*ao passar o mouse por cima o tamahno da imagem de fundo reduzirá*/
+}
+ul#album-fotos04 li#foto02{
+	background: url("../_imagens/albumFotos/FosforilacaoOxi02.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos04 li#foto02:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+ul#album-fotos04 li#foto03{
+	background: url("../_imagens/albumFotos/FosforilacaoOxi03.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos04 li#foto03:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+ul#album-fotos04 li#foto04{
+	background: url("../_imagens/albumFotos/FosforilacaoOxi04.jpeg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: rgba(0,0,0,.3);
+	-webkit-transition: all 0.3s ease-in ;
+}
+ul#album-fotos04 li#foto04:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+}
+
+#album-fotos04 span{
+	opacity: 0;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.1);
+	font-size: 15px;
+	line-height: 40px;
+	padding: 5px;
+}
+ul#album-fotos04 li:hover{
+	-webkit-transform: scale(1.5);			/*fará uma transformação ocorrer ao passar o mouse por cima, irá aumentar*/
+}
+ul#album-fotos04 li:hover span{
+	opacity: 1;
+}

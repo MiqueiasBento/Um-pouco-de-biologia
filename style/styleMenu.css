@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* Formatação do corpo */
+body{
+				margin: 20px;
+				background-color: rgba(0,250,154,.2);
+}
+p{
+				text-aling: justify;
+				text-ident: 50px;
+}
+div#interface{
+				background-color: #FFFFFF;
+				width: 900px;
+				margin: -20px auto 20px auto;
+				box-shadow: 2px 0px 10px rgba(0,0,0,.5);
+				padding: 20px;
+}
+
+/* Formatação do cabeçalho */
+header#cabecalho img#icone{
+				position: absolute;								  /* imagem com posição absoluta em relação ao header */
+				left: 780px;
+				top: 70px;
+				border-radius: 100px;
+}
+header#cabecalho{
+				border-bottom: 3px solid #000000;				/* borda inferior */
+				heigth: 150px;
+}
+header#cabecalho h1{
+				font-family: Arial, sans-serif;
+				font-size: 30px;
+				color: #3CB371;
+				text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+				padding: 0px;
+}
+header#cabecalho h2{
+				font-family: Arial, sans-serif;
+				color: #32CD32;
+				font-size: 15px;
+				margin-top: -20px;
+				margin-bottom: 30px;
+}
+
+/* Formatação da imagem cabeçalho */
+img#icone{
+      position: absolute;											/* posicionamento relativo a um anterior */
+      border-radius: 120px;
+				width: 140px;
+				heigth: 80px;
+				top: 70px;
+				right: 100px;
+				border: 3px solid #000;
+				border-radius: 120px;
+				box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+}
+
+/* Formatação do Menu */
+header{
+				margin-top: 50px;											 /* sspaço entre o topo e o header */
+}
+nav#menu{
+				display: block;												  /* fará a lista flutuar */
+}
+nav#menu ul{
+				list-style: none;											/* sem indicador de lista */
+				text-transform: uppercase;						/* todas as letras maiúsculas */	
+				position: absolute;									  /* para q possa passar lor cima de outros objetos */
+				top: -20px;															/* posição no topo */
+				right: 40px;															/* posição à esquerda */
+}
+nav#menu li{
+				display: inline-block;								/* fará com que os itens da lista fiquem de lado */
+				background-color: #008000;			  		/* com de fundo */
+				padding: 10px;										 		 /* espacamento interno */
+				margin: 5px;													 /* espaçamento externo */	
+				border-radius: 10px;
+				box-shadow: 3px 2px 3px rgba(0,0,0,.3);
+				trasition: background-color 0.5s;		/* tempo de transição */
+}
+nav#menu li:hover {													   /* efeito ao passar o mouse por cima */
+				background-color: #606060;
+				
+}
+nav#menu h1{
+				display: none;												 /* esconde o objeto/não aparecerá */
+}
+
+nav#menu a{
+				color: #000000;
+				text-decoration: none;								/* sem decoração no texto */
+}
+nav#menu:hover {
+				color: #FFFFFF;
+}

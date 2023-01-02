@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    background-color: #E0FFFF;             /*Cor de fundo verde água claro*/
+    background-image: url(FundoFolha.jpg); /*Imagem de fundo*/
+    background-repeat: no-repeat;          /*A imagem de fundo não repetirá*/
+    background-attachment: fixed;          /*Ficará fixa sem repetir para baixo e se mover*/
+    background-size: 100%;                 /*O fundo se estenderá 100% pela tela em largura e altura*/
+    width: 90%;                            /*A largura de 90% para não ultrapassar a borda*/
+    height: 100%;                          /*Altua em 100%*/
+    margin: 50px;   
+}
+h2{
+    font-size: 27px;
+    font-family: Arial;
+    text-indent: 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+p{
+    font-size: 27px;
+    font-family: Arial;
+}
+em{
+    background-color: #00FFFF;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: justify;
+}
+table{
+    width: 70%;
+    margin-top: 200px;
+    margin-left:15%;
+    border: 3px solid #000000;
+    border-radius: 40px;
+    background-color: #F5FFFA;
+    padding: 15px;
+}
+td.Lesp{
+    height:60px;
+    background-color: #2E8B57;
+    border-radius: 40px;
+    height: 80px;
+}
+td#gabarit{
+    padding: 10px;
+    width: 35%;
+    margin: auto;
+  /*border: 3px solid #000000;
+    border-radius: 20px;*/
+    text-align: center;
+}
+td{
+    padding: 10px;
+    width: 35%;
+  /*border: 3px solid #000000;
+    border-radius: 20px;*/
+    text-align: center;
+}
+/*Botão do GABARITO*/
+a#quiz{
+    text-decoration: none;
+    font-family: Candara;
+    font-size: 25px;
+    background-color: #2E8B57;
+    position: relative;
+    left:50%;
+    padding: 5px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    color: #DCDCDC;
+}
+a#quiz:hover {
+    background-color: #32CD32;
+    transition: 0.5s;
+}

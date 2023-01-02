@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/*Formatação da interface principal*/
+body{
+	background-color: rgba(0,250,154,.3);
+	background-image: url(fundoVerde.jpg); /*Imagem de fundo*/
+    background-repeat: no-repeat;          /*A imagem de fundo não repetirá*/
+    background-attachment: fixed;          /*Ficará fixa sem repetir para baixo e se mover*/
+    background-size: 100%;                 /*O fundo se estenderá 100% pela tela em largura e altura*/
+    width: 90%;                           /*A largura de 90% para não ultrapassar a borda*/
+    height: 100%;                         /*Altua em 100%*/
+    margin: 20px;                         /*Margem de 45px para não ficar colado na borda*/
+}
+div.interface{
+	background-color: #FFFFFF;
+	width: 100%;
+	display: block;
+	margin: -20px  20px auto;
+	box-shadow: 2px 0px 10px rgba(0,0,0,.5);
+	padding: 20px;
+}
+div#interface{
+	background-color: #FFFFFF;
+	width: 100%;
+	display: block;
+	margin: -20px  20px auto;
+	box-shadow: 2px 0px 10px rgba(0,0,0,.5);
+	padding: 20px;
+}
+ul.lista{
+	font-size: 25px;                      /*Fonte da lista*/
+	font-family: sans-serif;
+}
+h1{
+	margin-top: 30px;                     /*Título h1 com margem de 40px*/
+	color: green;                         /*Com da fonte*/
+	font-family: sans-serif;              /*Tipo da fonte*/
+	font-size: 60px;                      /*tamanho da fonte*/
+	text-indent: 45px;
+	padding-bottom: 10px;                 /*Espaçamento interno pra baixo de 70 px*/
+}
+h4{
+	text-decoration: underline;           /*Sublinhado*/
+	font-family: Arial;                   /*Fonte do h4*/
+    font-size: 35px;                      /*Tamanho da fonte*/
+    text-indent: 40px;                    /*Só iniciará após 40px*/
+    margin-bottom: 0px;                   /*Margem de baixo para diminuir o espãço até o parágrafo*/
+    margin-top: 50px;
+    margin-left: auto;
+}
+div.central{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+img#equipe{
+	height: 80%;
+	width: 70%;
+	border: 5px solid #FFFFFF;
+	border-radius: 25px;
+	box-shadow: 5px 7px 14px rgba(0, 0, 0,.3);
+}
+
+/* Formatação do cabeçalho */
+header#cabecalho img#icone{
+	position: absolute;				      /* imagem com posição absoluta em relação ao header */
+}
+header#cabecalho{
+	border-bottom: 3px solid #000000;	  /* borda inferior */
+	margin-bottom: 30px;
+	height: 150px;
+}
+header#cabecalho h1{
+	font-family: Arial, sans-serif;
+	font-size: 64px;
+	color: #3CB371;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	margin-bottom: 14px;
+}
+header#cabecalho h2{
+	font-family: Arial, sans-serif;
+	color: #32CD32;
+	font-size: 30px;
+	margin-top: -30px;
+	text-indent: 50px;
+}
+
+/* Formatação da imagem cabeçalho */
+img#icone{
+    position: absolute;				    /* posicionamento relativo a um anterior */
+    border-radius: 100px;
+	width: 180px;
+	height: 180px;
+	top: 90px;
+	right: 190px;
+	box-shadow: 2px 2px 7px rgba(0,0,0,.3);
+}
+
+/* Formatação do Menu */
+header{
+	margin-top: 50px;					/* espaço entre o topo e o header */
+}
+nav#menu{
+	display: block;						/* fará a lista flutuar */
+}
+nav#menu ul{
+	list-style: none;					/* sem indicador de lista */
+	text-transform: uppercase;			/* todas as letras maiúsculas */
+	position: absolute;					/* para q possa passar lor cima de outros objetos */
+	top: -20px;							/* posição no topo */
+	right: 80px;						/* posição à esquerda */
+}
+nav#menu li{
+	font-family: arial, sans-serif;
+	font-size: 22px;
+	display: inline-block;				/* fará com que os itens da lista fiquem de lado */
+	background-color: #008000;			/* com de fundo */
+	padding: 10px 14px 10px 14px;					    /* espacamento interno */
+	margin: 7px 3px 0px 0px;					    /* espaçamento externo */
+	border-radius: 10px;
+	box-shadow: 3px 2px 3px rgba(0,0,0,.3);
+	transition: background-color 0.4s;  /* tempo de transição */
+}
+nav#menu li:hover {						/* efeito ao passar o mouse por cima */
+	background-color: #008080;
+	color: #FFFFFF;
+}
+nav#menu h1{
+	display: none;						/* esconde o objeto/não aparecerá */
+}
+
+nav#menu a{
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;				/* sem decoração no texto */
+	transition: 0.4s;
+}
+nav#menu a:hover {
+	color: #FFFFFF;
+}
+
+/*Formatação dos icones de contatos no rodape*/
+div#rodape{
+	border-top: 3px solid #000000;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin-top: 80px;
+	background-color: #00FA9A;
+}
+img.logos {
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	margin-top: 15px;
+	width: 45px;
+	height: 35px;
+	background-color: rgba(0,0,0,.3);
+	padding: 2px;
+	border-radius: 90px;
+}
+p.rodape{
+	margin: -10px;
+	font-family: sans-serif;
+	font-size: 17px;
+	text-align: center;
+	text-indent: 0px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Um pouco de Biologia - Fale conosco</title>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/styleFaleConosco.css">
+    <script type="text/javascript" src="../JS/functionMudar.js"></script>
+</head>
+<body>
+    <div class="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Um pouco de Biologia</h1>
+                <h2>Fale conosco</h2>
+            </hgroup>
+            <nav id="menu">
+                <h1>Menu principal</h1>
+                    <ul type="disc">
+                        <li onmouseover="mudarIcones('../_imagens/imagemMao.jpeg')" onmouseout="mudarIcone('../_imagens/fale-conosco.jpeg')"><a href="../index.html">Home</a></li>
+                        <li onmouseover="mudarIcones('../_imagens/processos.jpeg')" onmouseout="mudarIcones('../_imagens/fale-conosco.jpeg')"><a href="processos.html">Processos</a></li>
+                        <li onmouseover="mudarIcones('../_imagens/quiz.jpeg')" onmouseout="mudarIcones('../_imagens/fale-conosco.jpeg')"><a href="quiz.html">Quiz</a></li>
+                        <li> <a href="fale.conosco.html">Fale conosco</a> </li>
+                        <li onmouseover="mudarIcones('../_imagens/equipe.jpeg')" onmouseout="mudarIcones('../_imagens/fale-conosco.jpeg')"><a href="equipe.html">Equipe</a></li>
+                    </ul>
+            </nav>
+        </header>
+            <img src="../_imagens/fale-conosco.jpeg" id="icone"/>
+
+        <div class="central">
+        <form name="comentarios" method="POST" action="recebe.php/Coment.php">
+        <fieldset id="principal">
+            <legend>Fale Conosco</legend>
+
+            <div class="central">
+                <a href="_iconesContatos/whatsapp.html"><img src="../_iconesContatos/iconeWhatsapp.png" class="logos" title="Whatsapp"> </a>
+                <a href="https://instagram.com/umpoucodebiologia2021"><img src="../_iconesContatos/iconeInstagram.jpg" class="logos" title="Instagram"></a>
+                <a href="https://siteumpoucodebiologia@gmail.com"><img src="../_iconesContatos/iconeGmail.png" class="logos" title="Gmail"> </a>
+            </div>
+                <br>
+            <p><label for="cNome">Nome: </label><input type="text" name="nomeUsuario" id="cNome" size="60" placeholder="Seu nome">
+            <p><label for="cEmail">Email: </label><input type="email" name="emailUsuario" id="cEmail" size="60" placeholder="Seu email">
+
+            <fieldset class="Coment">
+                <legend class="Coment">Seu comentário</legend>
+                <p><textarea name="tMsg" cols="75" rows="7"></textarea></p>
+            </fieldset>
+            <center><p><input type="submit" name="ENVIAR" id="botao"></p></center>
+        </fieldset>
+        </form>
+        </div>
+
+		<div id="rodape" align="center">
+        <p class="rodape">Entre em contato conosco através dos contatos:</p>
+    <a href="_iconesContatos/whatsapp.html"><img src="../_iconesContatos/iconeWhatsapp.png" class="logos" title="Whatsapp"> </a>
+    <a href="https://instagram.com/umpoucodebiologia2021"><img src="../_iconesContatos/iconeInstagram.jpg" class="logos" title="Instagram"></a>
+    <a href="https://siteumpoucodebiologia@gmail.com"><img src="../_iconesContatos/iconeGmail.png" class="logos" title="Gmail"> </a>
+        <br>
+        <p class="rodape">Um pouco de biologia</p>
+        <br>
+    </div>
+	</div>
+</body>
+</html>
