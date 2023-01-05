@@ -2,10 +2,10 @@
 /*FUNCAO PARA MUDAR A FOTO DA FLORESTA*/
 function MudaImagem(tipo) {
           if (tipo == 1) {
-            arquivo = "JS/_imagens/foto01.jpeg";
+            arquivo = "JS/imagens/foto01.jpeg";
           }
           if (tipo == 2) {
-            arquivo = "JS/_imagens/foto02.jpeg";
+            arquivo = "JS/imagens/foto02.jpeg";
           }
           document.getElementById("imagemF").src = arquivo;
         }
