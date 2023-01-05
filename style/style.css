@@ -190,22 +190,22 @@ ul#passagemAbas li{
     box-shadow: 3px 3px 7px rgba(0,0,0,.3);   /*sombra*/
 }
 ul#passagemAbas li#img01{
-    background: url("../_fotos/Glicolise.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
+    background: url("../fotos/Glicolise.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
     background-position: 0px 0px;           			/*posicionar inicialmente no meio*/
     background-size: 185px 135px;             			/*tamanho ocupado pela imagem*/
 }
 ul#passagemAbas li#img02{
-    background: url("../_fotos/OxiPiruvato.jpg") no-repeat;/*imagem como fundo, e sem mudar o parâmetro*/
+    background: url("../fotos/OxiPiruvato.jpg") no-repeat;/*imagem como fundo, e sem mudar o parâmetro*/
     background-position: 0px 0px;           			/*posicionar inicialmente no meio*/
 		background-size: 185px 135px;             			/*tamanho ocupado pela imagem*/
 }
 ul#passagemAbas li#img03{
-    background: url("../_fotos/CicloKrebs.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
+    background: url("../fotos/CicloKrebs.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
     background-position: 0px 0px;           			/*posicionar inicialmente no meio*/
 		background-size: 185px 135px;             			/*tamanho ocupado pela imagem*/
 }
 ul#passagemAbas li#img04{
-    background: url("../_fotos/FosfoOxidativa.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
+    background: url("../fotos/FosfoOxidativa.jpg") no-repeat;  /*imagem como fundo, e sem mudar o parâmetro*/
     background-position: 0px 0px;           				/*posicionar inicialmente no meio*/
 		background-size: 185px 135px;             			/*tamanho ocupado pela imagem*/
 }
