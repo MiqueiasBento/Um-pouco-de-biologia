@@ -1,7 +1,7 @@
 ## Um Pouco de Biologia
  Primeiro projeto web em equipe, durante o período da carga horária do curso técnico.
 
-![logo (2)](https://user-images.githubusercontent.com/121648472/210469133-acda9190-fd43-4e35-b49b-1c988eac5743.png)
+![icon_um_pouco_de_biologia](https://github.com/MiqueiasBento/Um-pouco-de-biologia/assets/121648472/5e738990-2c87-4460-b113-a6635e32c376)
 
 Tendo como integrantes do grupo:
 * Bruna Lima;
